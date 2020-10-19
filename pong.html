@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Michal's Pong</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: darkgray;
+            flex-direction: column;
+        }
+
+        canvas {
+            border: 3px solid #FFF;
+        }
+
+        body.scored {
+            -webkit-animation: 100ms score 10 linear;
+            -moz-animation: 100ms score 10 linear;
+            -o-animation: 100ms score 10 linear;
+            animation: 100ms score 10 linear;
+        }
+
+        h1 {
+            font-family: 'Press Start 2P', cursive;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        h5 {
+            display: none;
+            margin: 20px;
+            font-size: 100px;
+        }
+
+        @keyframes score {
+            0% {
+                background-color: white;
+            }
+
+            100% {
+                bacground-color: darkgray;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME TO MICHAL'S PONG</h1>
+    <h5 id="playerPKT">0</h1>
+        <canvas></canvas>
+        <h5 id="aiPKT">0</h1>
+            <script src="gra.js">
+
+            </script>
+</body>
+
+</html>
