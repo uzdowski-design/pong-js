@@ -1,5 +1,5 @@
 # THE PONG GAME
 
-## Game developed using vanilla javascript.
+### Game developed using vanilla javascript.
 
-![PONG](overview.png?raw=true "PONG")s
+![PONG](overview.png?raw=true "PONG")
