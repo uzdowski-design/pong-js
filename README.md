@@ -2,4 +2,4 @@
 
 ### Game developed using vanilla javascript.
 
-![PONG](overview.png?raw=true "PONG")
+![PONG](img/overview.png?raw=true "PONG")
